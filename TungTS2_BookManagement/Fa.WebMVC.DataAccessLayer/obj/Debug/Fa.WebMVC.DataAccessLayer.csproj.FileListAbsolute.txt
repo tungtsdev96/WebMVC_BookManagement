@@ -1,0 +1,15 @@
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.DataAccessLayer\obj\Debug\Fa.WebMVC.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.DataAccessLayer\obj\Debug\Fa.WebMVC.DataAccessLayer.csprojAssemblyReference.cache
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.DataAccessLayer\bin\Debug\Fa.WebMVC.DataAccessLayer.dll.config
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.DataAccessLayer\bin\Debug\Fa.WebMVC.DataAccessLayer.dll
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.DataAccessLayer\bin\Debug\Fa.WebMVC.DataAccessLayer.pdb
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.DataAccessLayer\bin\Debug\Fa.WebMVC.Model.dll
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.DataAccessLayer\bin\Debug\Fa.WebMVC.Model.pdb
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.DataAccessLayer\bin\Debug\Fa.WebMVC.Model.dll.config
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.DataAccessLayer\obj\Debug\Fa.WebMVC.DataAccessLayer.csproj.CopyComplete
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.DataAccessLayer\obj\Debug\Fa.WebMVC.DataAccessLayer.dll
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.DataAccessLayer\obj\Debug\Fa.WebMVC.DataAccessLayer.pdb

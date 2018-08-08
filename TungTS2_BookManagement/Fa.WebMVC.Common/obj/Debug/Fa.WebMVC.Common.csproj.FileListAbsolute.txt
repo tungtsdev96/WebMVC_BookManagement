@@ -1,0 +1,5 @@
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.Common\bin\Debug\Fa.WebMVC.Common.dll
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.Common\bin\Debug\Fa.WebMVC.Common.pdb
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.Common\obj\Debug\Fa.WebMVC.Common.csproj.CoreCompileInputs.cache
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.Common\obj\Debug\Fa.WebMVC.Common.dll
+D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.Common\obj\Debug\Fa.WebMVC.Common.pdb
