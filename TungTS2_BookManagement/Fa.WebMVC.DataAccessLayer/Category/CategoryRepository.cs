@@ -10,6 +10,7 @@ namespace Fa.WebMVC.DataAccessLayer
 {
     public class CategoryRepository :  BaseRepository<Category>, ICategoryRepository
     {
+
         public CategoryRepository(BookManagementContext _bookManagementContext) : base(_bookManagementContext)
         {
         }

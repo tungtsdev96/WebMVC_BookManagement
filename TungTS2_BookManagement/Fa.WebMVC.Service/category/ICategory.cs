@@ -14,11 +14,11 @@ namespace Fa.WebMVC.Service
 
         Category GetCategoryById(int categoryId);
 
-        void InsertCategory(Category category);
+        int InsertCategory(Category category);
 
-        void UpdateCategory(Category category);
+        int UpdateCategory(Category category);
 
-        void DeleteCategory(int categoryId);
+        bool DeleteCategory(int categoryId);
 
     }
 }

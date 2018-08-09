@@ -11,18 +11,15 @@ namespace Fa.WebMVC.Service.category
     public class CategoryService : ICategory
     {
 
-        private ICategoryRepository categoryRepository;
+        private UnitOfWork unitOfWork;
+        private readonly ICategoryRepository categoryRepository;
 
-        public CategoryService()
+        public CategoryService(UnitOfWork _unitOfWork)
         {
-            categoryRepository = new CategoryRepository(new DataAccessLayer.AccessDatabases.BookManagementContext());
+            this.unitOfWork = _unitOfWork;
+            this.categoryRepository = (ICategoryRepository) unitOfWork.GetRepository<Category>();
         }
 
-        public CategoryService(ICategoryRepository _categoryRepository)
-        {
-            this.categoryRepository = _categoryRepository;
-        }
-        
         public IEnumerable<Category> GetCategories()
         {
             return categoryRepository.GetCategories();
@@ -33,20 +30,22 @@ namespace Fa.WebMVC.Service.category
             return categoryRepository.GetCategoryById(categoryId);
         }
 
-        public void InsertCategory(Category category)
+        public int InsertCategory(Category category)
         {
             categoryRepository.InsertCategory(category);
+            return unitOfWork.Save();
         }
 
-        public void UpdateCategory(Category category)
+        public int UpdateCategory(Category category)
         {
             categoryRepository.UpdateCategory(category);
+            return unitOfWork.Save();
         }
 
-        public void DeleteCategory(int categoryId)
+        public bool DeleteCategory(int categoryId)
         {
             categoryRepository.DeleteCategory(categoryId);
+            return unitOfWork.Save() > 0;
         }
-
     }
 }
