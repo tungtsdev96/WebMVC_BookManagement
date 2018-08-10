@@ -10,3 +10,15 @@ D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.Model\obj\Debug\Fa.WebMVC.Model.cspr
 D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.Model\obj\Debug\Fa.WebMVC.Model.dll
 D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.Model\obj\Debug\Fa.WebMVC.Model.pdb
 D:\FPT\NET\TungTS2_BookManagement\Fa.WebMVC.Model\obj\Debug\Fa.WebMVC.Model.csprojAssemblyReference.cache
+D:\FPT\NET\WebMVC_BookManagement\TungTS2_BookManagement\Fa.WebMVC.Model\bin\Debug\Fa.WebMVC.Model.dll.config
+D:\FPT\NET\WebMVC_BookManagement\TungTS2_BookManagement\Fa.WebMVC.Model\bin\Debug\Fa.WebMVC.Model.dll
+D:\FPT\NET\WebMVC_BookManagement\TungTS2_BookManagement\Fa.WebMVC.Model\bin\Debug\Fa.WebMVC.Model.pdb
+D:\FPT\NET\WebMVC_BookManagement\TungTS2_BookManagement\Fa.WebMVC.Model\bin\Debug\EntityFramework.dll
+D:\FPT\NET\WebMVC_BookManagement\TungTS2_BookManagement\Fa.WebMVC.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\FPT\NET\WebMVC_BookManagement\TungTS2_BookManagement\Fa.WebMVC.Model\bin\Debug\EntityFramework.xml
+D:\FPT\NET\WebMVC_BookManagement\TungTS2_BookManagement\Fa.WebMVC.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\FPT\NET\WebMVC_BookManagement\TungTS2_BookManagement\Fa.WebMVC.Model\obj\Debug\Fa.WebMVC.Model.csprojAssemblyReference.cache
+D:\FPT\NET\WebMVC_BookManagement\TungTS2_BookManagement\Fa.WebMVC.Model\obj\Debug\Fa.WebMVC.Model.csproj.CoreCompileInputs.cache
+D:\FPT\NET\WebMVC_BookManagement\TungTS2_BookManagement\Fa.WebMVC.Model\obj\Debug\Fa.WebMVC.Model.csproj.CopyComplete
+D:\FPT\NET\WebMVC_BookManagement\TungTS2_BookManagement\Fa.WebMVC.Model\obj\Debug\Fa.WebMVC.Model.dll
+D:\FPT\NET\WebMVC_BookManagement\TungTS2_BookManagement\Fa.WebMVC.Model\obj\Debug\Fa.WebMVC.Model.pdb

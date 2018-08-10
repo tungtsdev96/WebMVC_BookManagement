@@ -17,7 +17,7 @@ namespace Fa.WebMVC.Presentation
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            //Bootstrapper.Initialise();
+            Bootstrapper.Initialise();
 
             //AppConfig.Configure();
         }

@@ -28,7 +28,9 @@ namespace Fa.WebMVC.DataAccessLayer
         /// </summary>
         /// <typeparam name="TEntity"> Type of class Entity</typeparam>
         /// <returns> IBase<Repository> baseRepository </returns>
-        public IBaseRepository<TEntity> GetRepository<TEntity>() where TEntity: class
+        public IBaseRepository<TEntity> GetRepository<TEntity, TRepo>() 
+            where TEntity: class
+            where TRepo : IBaseRepository<TEntity>
         {
             if (ListRepositories.Keys.Contains(typeof(TEntity)))
             {
@@ -36,8 +38,25 @@ namespace Fa.WebMVC.DataAccessLayer
             }
 
             IBaseRepository<TEntity> baseRepository = new BaseRepository<TEntity>(context);
+
             ListRepositories.Add(typeof(TEntity), baseRepository);
             return baseRepository;
+        }
+
+        public IBaseRepository<TEntity> GetRepository<TEntity, IRepo, Repo>()
+            where TEntity : class
+            where IRepo : IBaseRepository<TEntity>
+            where Repo : BaseRepository<TEntity>
+        {
+            if (ListRepositories.Keys.Contains(typeof(TEntity)))
+            {
+                return (IRepo) ListRepositories[typeof(TEntity)];
+            }
+
+            IRepo repo = (IRepo) Activator.CreateInstance(typeof(Repo), context);
+
+            ListRepositories.Add(typeof(TEntity), repo);
+            return  repo;
         }
 
         /// <summary>
